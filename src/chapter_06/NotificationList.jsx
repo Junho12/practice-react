@@ -36,12 +36,12 @@ class NotificationList extends React.Component {
                 this.setState({
                     notifications: notifications,
                 });
-            } else {
+            } /*else {
                 this.setState({
                     notifications: [],
                 });
                 clearInterval(timer);
-            }
+            }*/
         }, 1000);
     }
 
